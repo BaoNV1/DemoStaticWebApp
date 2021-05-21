@@ -1,0 +1,53 @@
+.scanproduct-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    min-height: calc(100vh - 50px);
+}
+
+.scanproduct-title {
+    flex: 1;
+    margin: 10px 0px;
+}
+
+.scanproduct-title-txt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    color: #102F5E;
+}
+
+.product-inf {
+    flex: 1;
+}
+
+.pro-name {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+}
+
+.pro-no-title {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+}
+
+.pro-no {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.note-txt {
+    color: #E84553;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.pro-space-top {
+    flex: 1;
+}

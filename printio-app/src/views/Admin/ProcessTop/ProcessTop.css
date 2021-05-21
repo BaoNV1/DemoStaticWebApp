@@ -1,0 +1,101 @@
+.process-control-container {
+    width: calc(100% - 250px);
+    height: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+.processtop-title {
+    height: 135px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.processtop-title-icon {
+    margin-left: 41px;
+}
+
+.processtop-title-icon img {
+    width: 36px;
+}
+
+.processtop-title .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.processtop-title .right {
+    justify-content: flex-end;
+    margin-right: 41px;
+}
+
+.processtop-title .right label {
+    font-size: 20px;
+    color: #323130;
+}
+
+.processtop-title .right input {
+    font-family: 'Roboto';
+    line-height: 20px;
+    color: #A19F9D;
+}
+
+.processtop-main {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.processtop-mean-graph {
+    height: 67px;
+    margin-left: 41px;
+    margin-right: 41px;
+    padding-top: 27px;
+}
+
+.processtop-mean-graph .m-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.processtop-mean-graph .m-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.m-left .date-graph {
+    font-size: 37px;
+    color: #323130;
+}
+
+.m-left .graph-mean-name {
+    font-size: 20px;
+    color: #000000;
+    padding: 5px;
+}
+
+.processtop-btn-set {
+    width: 235px;
+    height: 67px;
+    font-size: 28px;
+    color: #FFFFFF;
+    border-bottom: solid 5px #CE3744;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.processtop-graph-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.processtop-graph {
+    margin-left: 41px;
+    margin-right: 154px;
+}
+
+.processtop-graph-proc-name {
+    color: #323130;
+}

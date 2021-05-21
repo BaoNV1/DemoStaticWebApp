@@ -1,0 +1,30 @@
+.logoStyle {
+    height: 70%;
+    margin: 11px 40px;
+}
+
+.headerClass {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: white;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Roboto;
+    margin: 0px 7px 0px 7px;
+    line-height: 20px;
+}
+
+.header-logout {
+    font-size: 34px;
+    cursor: pointer;
+    margin: 0px 39px 0px 30px;
+}
+
+.header-right {
+    align-items: center;
+}

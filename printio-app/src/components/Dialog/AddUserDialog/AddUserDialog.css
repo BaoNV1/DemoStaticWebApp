@@ -1,0 +1,96 @@
+.add-user-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.add-user-title {
+    font-size: 30px;
+    color: #323130;
+    margin-bottom: 20px;
+}
+
+.add-user-container {
+    width: 605px;
+    /* height: 375px; */
+    display: flex;
+    justify-content: center;
+}
+
+.add-user-form table tbody tr {
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+}
+
+.add-user-form table tbody tr .add-user-form-titile {
+    display: flex;
+    background: #102F5E;
+    width: 215px;
+    height: 81px;
+}
+
+.add-user-form table tbody tr td label {
+    font-size: 21px;
+    color: #EDEBE9;
+    margin-left: 26px;
+}
+
+.add-user-form table tbody tr .barcode-item {
+    height: 134px;
+}
+
+.add-user-form table tbody tr .add-user-form-input {
+    display: flex;
+    background: #EDEBE9;
+    width: 389px;
+    justify-content: center;
+}
+
+.add-user-form table tbody tr td .add-user-textfield {
+    display: flex;
+    align-items: center;
+}
+
+.add-user-form table tbody tr td input {
+    font-family: Roboto;
+    font-size: 21px;
+    color: #B3B1AE;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.add-user-barcode-img {
+    width: 243px;
+    height: 102px;
+}
+
+.add-user-barcode {
+    align-items: center;
+}
+
+.add-user-btn-container {
+    margin: 20px 0px;
+}
+
+.btn-add-user {
+    width: 196px;
+    height: 67px;
+    font-size: 28px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border-color: #2C987E;
+    background-color: #2C987E;
+    box-shadow: 0px 5px 0px #21816A;
+    justify-content: center;
+}
+
+.download-barcode-image {
+    width: 100%;
+    height: 100%;
+}

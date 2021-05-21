@@ -1,0 +1,22 @@
+.signin-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.title-text {
+    font-size: 2vw;
+    color: black;
+}
+
+.bar-code-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.bc-image {
+    height: auto;
+    max-width: 100%;
+}

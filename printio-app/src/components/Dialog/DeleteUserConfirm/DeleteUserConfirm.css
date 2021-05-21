@@ -1,0 +1,59 @@
+.message-confirm {
+    font-size: 26px;
+    color: #323130;
+    margin-bottom: 20px;
+}
+
+.confirm-user-info {
+    width: 100%;
+    height: 81px;
+    margin: 20px 0px;
+}
+
+.confirm-user-info .conf-user-info-container {
+    justify-content: center;
+    height: 100%;
+}
+
+.conf-user-info-title {
+    display: flex;
+    background: #102F5E;
+    height: 100%;
+    width: 215px;
+}
+
+.conf-user-info-title label {
+    font-size: 21px;
+    color: #EDEBE9;
+    margin-left: 30px;
+}
+
+.conf-user-info {
+    background: #EDEBE9;
+    height: 100%;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+}
+
+.conf-user-info label {
+    font-size: 21px;
+    color: #323130;
+}
+
+.confirm-btn-container {
+    margin: 20px 0px;
+}
+
+.btn-delete-user {
+    width: 196px;
+    height: 67px;
+    font-size: 28px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border-color: #E84553;
+    background-color: #E84553;
+    box-shadow: 0px 5px 0px #CE3744;
+    justify-content: center;
+}

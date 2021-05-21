@@ -1,0 +1,53 @@
+/* .confirm-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.text-message {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-confirm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    width: 206px;
+    height: 72px;
+    margin: 0px 10px;
+    line-height: 20px;
+}
+
+.confirm-cancel-button {
+    border-color: #1F51A2;
+    background-color: #1F51A2;
+    /* filter: drop-shadow(0px 5px 0px #174185); */
+    border-bottom: solid 5px #174185;
+}
+
+.confirm-hold-button {
+    border-color: #E84553;
+    background-color: #E84553;
+    /* filter: drop-shadow(0px 5px 0px #CE3744); */
+    border-bottom: solid 5px #CE3744;
+}
+
+.confirm-close-image img {
+    width: 100%;
+    height: auto;
+}

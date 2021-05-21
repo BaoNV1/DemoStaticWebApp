@@ -1,0 +1,13 @@
+.material-container {
+    height: 100%;
+    min-height: calc(100vh - 50px);
+}
+.button-search-red{
+    right: 250px !important;
+}
+.button-search-blue{
+    width: 220px;
+    height: 67px;
+    position: absolute;
+    right: 20px;
+}

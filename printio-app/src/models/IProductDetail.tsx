@@ -1,0 +1,30 @@
+export type IProductDetail = {
+    id: number;
+    linesId: number;
+    left1Name: string;
+    left2Name: string;
+    left3Name: string;
+    left4Name: string;
+    left5Name: string;
+    left1Option: string;
+    left2Option: string;
+    left3Option: string;
+    left4Option: string;
+    left5Option: string;
+    centerLine1Option: string;
+    centerLine2Option: string;
+    centerImage1Name: string;
+    centerImage2Name: string;
+    centerImage3Name: string;
+    centerImage4Name: string;
+    centerImage1Option: string;
+    centerImage2Option: string;
+    centerImage3Option: string;
+    centerImage4Option: string;
+    right1Name: string;
+    right2Name: string;
+    right1Option: string;
+    right2Option: string;
+    lineItemsId: number;
+    factoryId: number;
+}

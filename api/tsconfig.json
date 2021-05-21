@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true, 
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true,
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: #EFEFEF; */
+    background: linear-gradient(to right, #EFEFEF 0%, #f9fafa 50%, #FFFFFF 100%);
+}
+
+.header {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    flex: 1;
+    min-height: calc(100vh - 50px);
+    /* overflow: auto; */
+    /* flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start; */
+}
+
+.footer {
+    width: 100%;
+}

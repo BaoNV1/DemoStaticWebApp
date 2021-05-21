@@ -1,0 +1,97 @@
+.dashboard-container {
+    width: calc(100% - 250px);
+    height: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+.dashboard-title {
+    height: 135px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.dashboard-status {
+    height: 187px;
+    width: 100%;
+}
+
+.dashboard-main {
+    height: 100%;
+    margin: 46px 52px;
+    padding: 36px 46px;
+    box-shadow: 0px 10px 10px rgb(116 112 112 / 15%);
+    align-items: flex-start;
+}
+
+.dashboard-main .title {
+    font-size: 30px;
+    color: #323130;
+}
+
+.dashboard-main .subtitle {
+    margin-left: 7px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.dashboard-graph {
+    width: 100%;
+    height: 100%;
+}
+
+.process-name {
+    font-size: 20px;
+    color: #323130;
+}
+
+.dashboard-title-icon {
+    margin-left: 41px;
+}
+
+.dashboard-title-icon img {
+    width: 36px;
+}
+
+.dashboard-status-left {
+    height: 90%;
+    margin: 61px 20px 46px 52px;
+}
+
+
+/* .w-space50 {
+    width: 50px;
+    height: 100%;
+} */
+
+.dashboard-status-right {
+    height: 90%;
+    margin: 61px 52px 46px 20px;
+    padding-right: 46px;
+}
+
+.dashboard-status-label {
+    height: 30px;
+    font-size: 30px;
+    padding-bottom: 26px;
+}
+
+.dashboard-retangle-space {
+    width: 19px;
+}
+
+.dashboard-retangle {
+    height: 100%;
+    width: 230px;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.dashboard-retangle-label-above {
+    height: 30%;
+    font-size: 22px;
+}
+
+.dashboard-retangle-label-alow {
+    height: 60%;
+    font-size: 60px;
+}

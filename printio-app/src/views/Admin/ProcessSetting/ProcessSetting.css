@@ -1,0 +1,179 @@
+.setting-container {
+    width: 100%;
+}
+
+.setting-body {
+    margin: 0px 64px 10px 64px
+}
+
+.setting-tabs {
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.setting-list {
+    width: 100%;
+    height: 100%;
+}
+
+.setting-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.setting-list table thead tr {
+    display: flex;
+    height: 47px;
+}
+
+.setting-list table th {
+    justify-content: center;
+    background-color: #102F5E;
+}
+
+.setting-list .header-table {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-left: 41px;
+}
+
+.setting-list table tbody tr {
+    height: 55px;
+}
+
+.setting-list table tbody tr td {
+    border-bottom: 1px solid #B2B2B2;
+    border-left: 1px solid #B2B2B2;
+}
+
+.setting-list table tbody tr .last-column {
+    border-right: 1px solid #B2B2B2;
+}
+
+.setting-list table tbody {
+    overflow: auto;
+    height: 440px;
+}
+
+.user-info-container {
+    justify-content: center;
+}
+
+.user-info {
+    font-size: 22px;
+    color: #323130;
+    margin-left: 41px;
+}
+
+.active-area {
+    justify-content: center;
+}
+
+.setting-btn-update {
+    background: #2C987E;
+    box-shadow: 0px 3px 0px #21816A;
+    border-color: #2C987E;
+    justify-content: center;
+}
+
+.setting-btn-delete {
+    background: #E84553;
+    box-shadow: 0px 3px 0px #CE3744;
+    border-color: #E84553;
+    justify-content: center;
+}
+
+.setting-btn-confirm {
+    background: #1F51A2;
+    box-shadow: 0px 3px 0px #174185;
+    border-color: #1F51A2;
+    justify-content: center;
+}
+
+.active-area button {
+    width: 134px;
+    height: 32px;
+    border-radius: 7px;
+    margin: 13px;
+    font-size: 19px;
+}
+
+.setting-footer {
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+.setting-footer .btn-add-user {
+    width: 158px;
+    height: 54px;
+    background: #2C987E;
+    box-shadow: 0px 5px 0px #21816A;
+    border-radius: 10px;
+    border-color: #2C987E;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.user-info-edit {
+    font-size: 22px;
+    color: #B3B1AE;
+    margin-left: 41px;
+}
+
+.user-info-container input {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #B3B1AE;
+    padding: 0px;
+}
+
+.working-name-container {
+    justify-content: center;
+    background: #E7EEF8;
+}
+
+.working-time-container {
+    align-items: center;
+    background: #FFFFFF;
+    height: 100%;
+}
+
+.working-time-container .working-time,
+.working-name-container .working-name {
+    font-size: 22px;
+    color: #323130;
+    margin-left: 41px;
+}
+
+.working-time-container button {
+    width: 134px;
+    height: 32px;
+    border-radius: 7px;
+    margin: 0px 49px;
+    font-size: 19px;
+}
+
+.working-time-input {
+    margin-left: 35px;
+}
+
+.working-time-input .ms-TextField-fieldGroup {
+    width: 120px;
+}
+
+.working-time-input input {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #B3B1AE;
+}

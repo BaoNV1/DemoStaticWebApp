@@ -1,0 +1,23 @@
+.footer-main{
+    height: 25px;
+    background: #005695;
+    box-shadow: 0px 4px 4px rgba(50, 49, 48, 0.25);
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+}
+.footer-content{
+    float: right;
+}
+.footer-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+.footer-content li:nth-last-child(2) {
+    flex: 1;
+}
